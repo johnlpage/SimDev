@@ -3,14 +3,23 @@
         body {
             color: black;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background-color: #00ED64;
+            background-color: white;
             text-align: center;
 
             font-size: 32pt;
 
         }
 
-       
+      
+.banner  {
+    width: 40vw;
+    margin: auto;
+    margin-top: 10vh;
+    border: 2px solid black;
+    border-radius: 2em;
+    padding: 3em;
+    box-shadow: 1em 1em lightgray;
+}
 h1 {
   color: black;
   font-size: large;
@@ -23,8 +32,8 @@ h1 {
     margin: auto;
     width: 15em;
     margin-top: 5pt;
-    border-radius: 5pt;
-    background-color: #006848;
+
+        background-color: #006848;
 
 }
 
@@ -45,8 +54,10 @@ a {
 
 </head>
 <body onLoad="setTimeout(()=>{document.location='http://edee.mongodb.com'},3000)" >
-<h1> This URL is no longer in use, please update any links to use the new URL,
-    you are being redirected now.
+<div class="banner">
+    This URL is no longer in use, please update any links to use the new URL:<p> https://edee.mongodb.com<p></p>
+    you are being redirected there now.
+</div> 
 </h1>
 
 </body>
